@@ -1,0 +1,87 @@
+div{
+    padding: 1px;
+    margin: 25px; 
+}
+p{
+    color: rgb(216, 2, 2); 
+    padding-top: 15px;
+    padding-left: 50px; 
+    font-size: 20px; 
+    font-family: sans-serif;
+}
+a {
+    color: gray;
+    font-family: sans-serif;
+    padding: 5px;
+    float: right;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+.pic{
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}    
+.pic:hover{
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.03), 0 1px 8px 0 rgba(0, 0, 0, 0.1);           
+}
+.noborder{
+	width: 510px;
+    height: 30px;
+    font-size: large;
+    border: 1px solid white;  
+}
+.noborder:focus{
+    outline: none; 
+}
+input[type="button"],input[type="submit"]{
+    color: rgb(63, 61, 61);
+	background-color: rgb(246, 248, 246);
+    width: 140px;
+    height: 40px;
+    border: 1px hidden lightgray;
+    border-radius: 5px;
+}
+input[type="button"]:hover,input[type="submit"]:hover{
+    border: 1px solid lightgray;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.03), 0 1px 8px 0 rgba(0, 0, 0, 0.01);           
+}
+form{
+	padding: 100px;
+    text-align: center;
+}
+td{
+    color: rgb(63, 61, 61);
+    text-align: left;
+    font-family: sans-serif;
+}
+.tabk{
+    outline:rgb(253, 253, 253);
+    outline-style:ridge;
+    outline-offset: 0px;
+    outline-width: thin;
+    height: 30px;
+    font-size: large;
+    width:620px; 
+    margin:5px; 
+    padding: 10px;
+}
+.tabk:focus{
+    outline:royalblue;
+    outline-style:ridge;
+    outline-offset: 0px;
+    outline-width: thin;
+}
+tr{
+    height: 40px;
+}
+.small{
+    font-size:small;
+}
+.smaller{
+    font-size:smaller;
+}
